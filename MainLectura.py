@@ -4,6 +4,7 @@
 #y como valor metemos una lista metemos todas las palabras que van despues de esta(repetidas incluidas)
 from MetodosLectura import *
 
-si = lectura_archvio("prueba.txt")
-#meter_palabras_en_diccionario(si)
-depurar_frase(si)
+
+
+depurar_frase("prueba.txt","archivolimpio.txt")
+meter_palabras_en_diccionario("archivolimpio.txt")
