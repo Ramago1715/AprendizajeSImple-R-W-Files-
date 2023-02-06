@@ -6,5 +6,7 @@ from MetodosLectura import *
 
 
 
-depurar_frase("prueba.txt","archivolimpio.txt")
-meter_palabras_en_diccionario("archivolimpio.txt")
+depurar_frase("frases_informatica.txt","archivolimpio.txt")
+diccionario_relleno,final = meter_palabras_en_diccionario("archivolimpio.txt")
+generar_palabras(diccionario_relleno,final)
+
